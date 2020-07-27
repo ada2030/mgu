@@ -226,7 +226,7 @@ li {
   align-items: center;
   background-color: #111111;
   justify-content: space-between;
-  padding: 45px 30px;
+  padding: 43px 30px;
 }
 
 .copyright {
@@ -241,10 +241,14 @@ li {
   align-items: center;
 }
 
-.line {
-  height: 50px;
-  border-left:1px solid #575757;
-  width: 1px;
-  margin-left: 40px;
-  margin-right: 40px;
+.socials-item {
+  padding-right: 40px;
+  padding-left: 40px;
 }
+
+.socials-item:not(:last-child) {
+  height: 50px;
+  border-right: 1px solid #575757;
+  padding-top: 12px;
+}
+
