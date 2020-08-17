@@ -70,7 +70,7 @@ table {
 .header {
   position: absolute;
   top: 0;
-  left: 40px;
+  left: 0;
   right: 0;
   display: flex;
   z-index: 4;
@@ -81,7 +81,7 @@ table {
 
 .logo-link {
   padding-top: 20px;
-  padding-left: 40px;
+  padding-left: 60px;
   padding-right: 30px;
   font-family: "Editorial Grotesk", "Arial", san-serif;
   font-weight: 700;
@@ -183,6 +183,7 @@ table {
   height: 540px;
   z-index: 3;
   background: url(../img/logo.svg) no-repeat bottom 200px left 625px;
+  pointer-events: none;
 }
 
 .promo:after {
@@ -194,6 +195,7 @@ table {
   bottom: 0;
   background: rgba(0,0,0,.3);
   z-index: 2;
+  pointer-events: none;
 }
 
 .promo-heading {
