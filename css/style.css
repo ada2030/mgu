@@ -67,30 +67,16 @@ table {
   border-collapse: collapse;
 }
 
-.main {
-  font-family: "Helvetica Neue", "Arial", san-serif;
-  font-size: 16px;
-  line-height: 26px;
-  color: #575757;
-  font-style: normal;
-  font-weight: 400;
-  background-color: #F7F7F7;
-  margin: 0 auto;
-  width: 1280px;
-}
-
-.slider {
-  position: relative;
-}
-
 .header {
   position: absolute;
   top: 0;
   left: 40px;
+  right: 0;
   display: flex;
   z-index: 4;
   width: 1280px;
   height: 60px;
+  margin: 0 auto;
 }
 
 .logo-link {
@@ -170,6 +156,18 @@ table {
   position: absolute;
   top: 15px;
   right: 40px;
+}
+
+.main {
+  font-family: "Helvetica Neue", "Arial", san-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #575757;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  width: 1280px;
 }
 
 .promo {
